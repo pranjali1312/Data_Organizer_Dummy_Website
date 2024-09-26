@@ -1,0 +1,378 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF;
+    color: #2C3E50;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #4A90E2;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+input[type="text"] {
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(to right, #4A90E2, #FF6F61);
+    color: #FFFFFF;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #FF6F61;
+    padding: 15px 30px;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* Features, Testimonials, and Other Sections */
+.features, .testimonials, .pricing, .blog {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.features {
+    background-color: #F7F7F7;
+}
+
+.feature {
+    display: inline-block;
+    margin: 20px;
+    width: 200px;
+}
+
+.testimonials {
+    background-color: #F7F7F7;
+}
+
+.pricing {
+    background-color: #FFFFFF;
+}
+
+.pricing-table {
+    display: flex;
+    justify-content: center;
+}
+
+.plan {
+    border: 1px solid #4A90E2;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+}
+
+button {
+    background-color: #4A90E2;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    background-color: #4A90E2;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.newsletter {
+    margin-top: 10px;
+}
+
+/* About Us Page */
+.mission, .team, .history, .testimonials, .call-to-action {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.hero {
+    background: linear-gradient(to right, #4A90E2, #FF6F61);
+    color: #FFFFFF;
+    padding: 60px 20px;
+}
+
+.team {
+    background-color: #F7F7F7;
+}
+
+.team-member {
+    display: inline-block;
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+}
+
+.team-member img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.timeline {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.event {
+    border-left: 2px solid #4A90E2;
+    padding: 10px 20px;
+    margin: 0 20px;
+}
+
+.call-to-action {
+    background-color: #4A90E2;
+    color: #FFFFFF;
+    padding: 40px 20px;
+}
+
+.call-to-action .cta-button {
+    margin-top: 20px;
+}
+
+/* New Styles for Data Operations Page */
+.data-operations {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.operation-card {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #4A90E2;
+    border-radius: 5px;
+    width: 300px;
+    background-color: #FFFFFF;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.operation-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.operation-card h2 {
+    color: #4A90E2;
+    margin-bottom: 15px;
+}
+
+.operation-card p {
+    margin-bottom: 20px;
+    color: #2C3E50;
+}
+
+.operation-card input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #4A90E2;
+    border-radius: 5px;
+}
+
+.operation-card button {
+    background-color: #FF6F61;
+    padding: 10px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.operation-card button:hover {
+    background-color: #E85550;
+}
+
+
+/* Contact Form Styles */
+.hero-contact {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(to right, #4A90E2, #FF6F61);
+    color: #FFFFFF;
+}
+
+.hero-contact h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero-contact p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.contact-form-section {
+    padding: 50px 20px;
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form-container {
+    background-color: #FFFFFF;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #4A90E2;
+    display: block;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #4A90E2;
+    font-size: 16px;
+    color: #333;
+}
+
+.form-group input::placeholder, .form-group textarea::placeholder {
+    color: #999;
+}
+
+.form-group textarea {
+    resize: none;
+}
+
+.submit-button {
+    background-color: #FF6F61;
+    color: #FFFFFF;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #E85550;
+}
+
+
+/* Data View Section */
+.data-view-section {
+    margin: 40px 0;
+    padding: 20px;
+    background-color: #F7F7F7;
+    border: 1px solid #4A90E2;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.data-view-section h3 {
+    color: #4A90E2;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.data-view {
+    padding: 20px;
+    background-color: #FFFFFF;
+    border: 1px solid #4A90E2;
+    border-radius: 5px;
+    min-height: 100px;
+    max-height: 300px;
+    overflow-y: auto; /* Enables scrolling for large content */
+}
+
+.data-view p {
+    color: #2C3E50;
+    font-size: 16px;
+}
+
+.data-view-empty {
+    color: #888888;
+    font-style: italic;
+}
+
+.clear-button {
+    background-color: #FF6F61;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.clear-button:hover {
+    background-color: #E85550;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Operations - Data Organizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Data Organizer</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="data-operations.html">Data Operations</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Perform Data Operations Effortlessly</h1>
+        <p>Manage your data with easy-to-use operations.</p>
+    </section>
+
+    <section class="data-operations">
+        <div class="operation-card" id="append-operation">
+            <h2>Append Data</h2>
+            <p>Add new data to existing records.</p>
+            <form id="append-data-form">
+                <input type="text" id="data-append" placeholder="Enter data to append">
+                <button type="submit">Append</button>
+            </form>
+        </div>
+
+        <div class="operation-card" id="write-operation">
+            <h2>Write Data</h2>
+            <p>Replace existing data with new data.</p>
+            <form id="write-data-form">
+                <input type="text" id="data-write" placeholder="Enter data to write">
+                <button type="submit">Write</button>
+            </form>
+        </div>
+
+        <div class="operation-card" id="store-operation">
+            <h2>Store Data</h2>
+            <p>Save your data securely for future use.</p>
+            <form id="store-data-form">
+                <input type="text" id="data-store" placeholder="Enter data to store">
+                <button type="submit">Store</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Data View Section -->
+<section class="data-view-section">
+    <h3>View Data</h3>
+    <div class="data-view" id="data-view">
+        <p class="data-view-empty">No data has been appended, written, or stored yet.</p>
+    </div>
+    <button class="clear-button" id="clear-data">Clear Data</button>
+</section>
+
+    <footer>
+        <p>&copy; 2024 Data Organizer. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
